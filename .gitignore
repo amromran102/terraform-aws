@@ -1,0 +1,8 @@
+# Module directory
+.terraform/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+# Local idea editor and others
+.idea
