@@ -24,7 +24,7 @@ locals {
   subnet3 = "${var.subnet}-${var.availability_zones["zone3"]}"
 }
 
-//Define a key-pair that alreays exsists
+//Define a key-pair that already exsists
 variable "key_name" {
   default = "aws-key-pair"
 }
